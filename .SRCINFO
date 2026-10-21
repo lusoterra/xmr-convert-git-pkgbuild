@@ -1,0 +1,16 @@
+pkgbase = xmr-convert-git
+	pkgdesc = Convert Cryptonote addresses to standard Monero (XMR) addresses
+	pkgver = r2.9fa4e51
+	pkgrel = 1
+	url = https://git.lusosterone.net/lev/xmr-convert
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	depends = glibc
+	provides = xmr-convert
+	conflicts = xmr-convert
+	source = xmr-convert-git::git+https://git.lusosterone.net/lev/xmr-convert.git
+	sha256sums = SKIP
+
+pkgname = xmr-convert-git
